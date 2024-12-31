@@ -1,0 +1,31 @@
+.ProseMirror {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  min-height: 200px;
+  color: white;
+  background-color: #1e1e1e;
+}
+
+.ProseMirror:focus {
+  outline: none;
+}
+
+button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  border: none;
+  background-color: #6c5ce7;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+  background-color: #5a4ae3;
+}
